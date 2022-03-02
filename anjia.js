@@ -52,7 +52,7 @@ if ($.isNode()) {
             authorCodeList = ['b8807b8efe3d4a34bb3c74fa7724c993','4ef2c1660f304c63a3b0c208de4cf01f','241c6c30ddf44ee4a02c453d5c661261']
             $.bean = 0;
             $.authorCode = ownCode ? ownCode : authorCodeList[random(0, authorCodeList.length)]
-            $.activityId = '9222c59c4de14e039d124ba1d88d7004'
+            $.activityId = '85bd87e3bda047d78155139bcd8cb55b'
             $.activityShopId = '1000014486'
             $.randomNum = random(1000000, 9999999)
             $.activityUrl = `https://lzkjdz-isv.isvjcloud.com/pool/captain/${$.randomNum}?activityId=${$.activityId}&signUuid=${encodeURIComponent($.authorCode)}&adsource=null&shareuserid4minipg=null&shopid=${$.activityShopId}&lng=00.000000&lat=00.000000&sid=&un_area=`
