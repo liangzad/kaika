@@ -282,18 +282,18 @@ function bindWithVender(venderId) {
 }
 function taskUrl(function_id, body) {
     return {
-        url: `https://jinggengjcq-isv.isvjcloud.com/dm/front/openCardNew/${function_id}?&mix_nick=${$.buyerNick ? $.buyerNick : ""}`,
+        url: `https://mpdz1-isv.isvjcloud.com/jdbeverage/pages/unitedCard_38_3/${function_id}?&mix_nick=${$.buyerNick ? $.buyerNick : ""}`,
         headers: {
-            Host: 'jinggengjcq-isv.isvjcloud.com',
+            Host: 'mpdz1-isv.isvjcloud.com',
             Accept: 'application/json',
             'X-Requested-With': 'XMLHttpRequest',
             'Accept-Language': 'zh-cn',
             'Accept-Encoding': 'gzip, deflate, br',
             'Content-Type': 'application/json; charset=utf-8',
-            Origin: 'https://jinggengjcq-isv.isvjcloud.com',
+            Origin: 'https://mpdz1-isv.isvjcloud.com',
             'User-Agent': `jdapp;iPhone;9.5.4;13.6;${$.UUID};network/wifi;ADID/${$.ADID};model/iPhone10,3;addressid/0;appBuild/167668;jdSupportDarkMode/0;Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1`,
             Connection: 'keep-alive',
-            Referer: 'https://jinggengjcq-isv.isvjcloud.com/fronth5/',
+            Referer: 'https://mpdz1-isv.isvjcloud.com/jdbeverage/',
             Cookie: cookie
         },
         body: JSON.stringify(body)
@@ -303,15 +303,15 @@ function taskUrl(function_id, body) {
 
 function getMyPing() {
     let opt = {
-        url: `https://lzdz1-isv.isvjcloud.com/customer/getMyPing`,
+        url: `https://mpdz1-isv.isvjcloud.com/jdbeverage/pages/unitedCard_38_3`,
         headers: {
-            Host: 'lzdz1-isv.isvjcloud.com',
+            Host: 'mpdz1-isv.isvjcloud.com',
             Accept: 'application/json',
             'X-Requested-With': 'XMLHttpRequest',
             'Accept-Language': 'zh-cn',
             'Accept-Encoding': 'gzip, deflate, br',
             'Content-Type': 'application/x-www-form-urlencoded',
-            Origin: 'https://lzdz1-isv.isvjcloud.com',
+            Origin: 'https://mpdz1-isv.isvjcloud.com',
             'User-Agent': `jdapp;iPhone;9.5.4;13.6;${$.UUID};network/wifi;ADID/${$.ADID};model/iPhone10,3;addressid/0;appBuild/167668;jdSupportDarkMode/0;Mozilla/5.0 (iPhone; CPU iPhone OS 13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1`,
             Connection: 'keep-alive',
             Referer: $.activityUrl,
