@@ -49,9 +49,9 @@ if ($.isNode()) {
             authorCodeList = [
                 'vzt+XPnPKiZun3tF9vJHYV4tLNYA4seuA67MOIYQxEk3Vl9+AVo4NF+tgyeIc6A6kdK3rLBQpEQH9V4tdrrh0w==',
             ]
-            $.appkey = "51B59BB805903DA4CE513D29EC448375"
+            $.appkey = "21699045"
             $.userId = "10299171"
-            $.actId = "fe595e5ceec04518a151_220302"
+            $.actId = "e933fbcf74d61b12ffce2c_30803"
             // $.authorCode = authorCodeList[random(0, authorCodeList.length)]
             $.authorCode = ownCode ? ownCode : authorCodeList[random(0, authorCodeList.length)]
             console.log('去助力 -> '+$.authorCode);
