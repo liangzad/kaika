@@ -282,7 +282,7 @@ function bindWithVender(venderId) {
 }
 function taskUrl(function_id, body) {
     return {
-        url: `https://mpdz1-isv.isvjcloud.com/jdbeverage/pages/unitedCard_38_3/${function_id}?&mix_nick=${$.buyerNick ? $.buyerNick : ""}`,
+        url: `https://mpdz1-isv.isvjcloud.com/jdbeverage/pages/${function_id}?&mix_nick=${$.buyerNick ? $.buyerNick : ""}`,
         headers: {
             Host: 'mpdz1-isv.isvjcloud.com',
             Accept: 'application/json',
@@ -303,7 +303,7 @@ function taskUrl(function_id, body) {
 
 function getMyPing() {
     let opt = {
-        url: `https://mpdz1-isv.isvjcloud.com/jdbeverage/pages/unitedCard_38_3`,
+        url: `https://mpdz1-isv.isvjcloud.com/jdbeverage/pages`,
         headers: {
             Host: 'mpdz1-isv.isvjcloud.com',
             Accept: 'application/json',
