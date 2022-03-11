@@ -1,5 +1,5 @@
 /*
-cron:0 0 * * *
+cron:15 0 0 * * *
 */
 const $ = new Env("3.12-3.18菜狗大牌集合");
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
