@@ -1,7 +1,7 @@
 /*
 cron:0 0 * * *
 */
-const $ = new Env("3.2-3.8大牌集合");
+const $ = new Env("3.12-3.18菜狗大牌集合");
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const notify = $.isNode() ? require('./sendNotify') : '';
 let cookiesArr = [], cookie = '', message = '';
@@ -51,7 +51,7 @@ if ($.isNode()) {
             ]
             $.appkey = "51B59BB805903DA4CE513D29EC448375"
             $.userId = "10299171"
-            $.actId = "3bddac66351f4bfda8780f9fe_220305"
+            $.actId = "2f39d5e93c124fdb_220312"
             // $.authorCode = authorCodeList[random(0, authorCodeList.length)]
             $.authorCode = ownCode ? ownCode : authorCodeList[random(0, authorCodeList.length)]
             console.log('去助力 -> '+$.authorCode);
