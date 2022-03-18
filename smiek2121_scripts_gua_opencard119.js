@@ -102,7 +102,7 @@ let activityCookie =''
     return;
   }
   $.activityId = "dzlhkk068d4d0ab8a6609723002f50"
-  $.shareUuid = "3720d1ba86dd405fa87463dc5dd966ff"
+  $.shareUuid = "fcdb0ea89f504f1e8b911c7018b8775f"
   console.log(`入口:\nhttps://lzdz1-isv.isvjcloud.com/dingzhi/customized/common/activity?activityId=${$.activityId}&shareUuid=${$.shareUuid}`)
   let shareUuidArr = [$.shareUuid,"6f0650b15067453dac092041256a3a91","3f8fddc8e0d24d9aac3955293cb84317","3161d0706c06486bba086ee70e55ad13","0444857b01104656b9c1faf44f8e51f4","9723708ba3284a4c807448d27bee7452","271f49e18b6140ff89b1822f492a1c0f","b90173179c834e90980f858870da68b2","fb5ec3da087c4ebbb7bd8a2378925607","159f9b2b6833471f9e9f4834d6611b6f"]
   let s = Math.floor((Math.random()*10))
