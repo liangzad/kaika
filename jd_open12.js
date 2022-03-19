@@ -67,7 +67,7 @@ let activityCookie =''
   // return
   $.appkey = '51B59BB805903DA4CE513D29EC448375'
   $.userId = '10299171'
-  $.actId = '76364a8cc2b84e05b303_22032002'
+  $.actId = '02c956b451f14e66bdadf8f57be1_22032001'
   $.MixNicks = ''
   $.inviteNick = 'vzt+XPnPKiZun3tF9vJHYV4tLNYA4seuA67MOIYQxEk3Vl9+AVo4NF+tgyeIc6A6kdK3rLBQpEQH9V4tdrrh0w=='
 //  console.log(`活动地址:https://3.cn/104c6-0Gl`)
