@@ -7,7 +7,7 @@ let guaopencard = "true"
 let guaopenwait = "0"
 let guaopencard_draw = "10"
 
-const $ = new Env('3.20-3.30大牌联合');
+const $ = new Env('3.20-3.26大牌联合');
 const jdCookieNode = $.isNode() ? require('./jdCookie.js') : '';
 const notify = $.isNode() ? require('./sendNotify') : '';
 let cleanCart = ''
