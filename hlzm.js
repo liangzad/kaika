@@ -198,7 +198,7 @@ async function takePostRequest(type) {
   switch (type) {
     case 'isvObfuscator':
       url = `https://api.m.jd.com/client.action?functionId=isvObfuscator`;
-      body = `body=%7B%22url%22%3A%22https%3A//lzkjdz-isv.isvjcloud.com%22%2C%22id%22%3A%22%22%7D&uuid=R4iSKKKKKKKMOmXLqGOKSKGOmTV6eJcEyl4tdPdkNThluQEsHqq4sckXFj2AQgzeN93onfqeKKKK&client=apple&clientVersion=10.1.4&st=1647263148203&sv=102&sign=338df9c4df3590988d7c703cccca8ad6cd09b21cea38c7ed443ced5456571b5d`;
+      body = `body=%7B%22url%22%3A%22https%3A//lzkjdz-isv.isvjcloud.com%22%2C%22id%22%3A%22%22%7D&uuid=22aQf1ZRdxb2r4ovZ1EJZhcxYlVNZSZz09&client=apple&clientVersion=10.1.4&st=1647263148203&sv=102&sign=c2913c100e07c026f51d8f140abd64ec`;
       break;
     case 'getMyPing':
       url = `${domain}/customer/getMyPing`;
