@@ -78,9 +78,9 @@ let activityCookie =''
     });
     return;
   }
-  $.activityId = "2203100041074702"
-  $.shareUuid = "1efc44df19c948b1b39668a01bfc25d8"
-  console.log(`入口:\nhttps://lzkjdz-isv.isvjcloud.com/m/1000410747/99/${$.activityId}/?helpUuid=${$.shareUuid}`)
+  $.activityId = "2201100037643103"
+  $.shareUuid = "b359d4e11ba340ff9254e5bb6204c0c0"
+  console.log(`入口:\nhttps://lzkjdz-isv.isvjcloud.com/m/1000376431/99/${$.activityId}/?helpUuid=${$.shareUuid}`)
 
   for (let i = 0; i < cookiesArr.length; i++) {
     cookie = cookiesArr[i];
@@ -154,7 +154,7 @@ async function run() {
     }
     if($.openStatus == 0){
       console.log('开卡')
-      $.joinVenderId = 1000410747
+      $.joinVenderId = 1000376431
       await joinShop()
       if($.errorJoinShop.indexOf('活动太火爆，请稍后再试') > -1){
         console.log('重新开卡')
@@ -202,7 +202,7 @@ async function takePostRequest(type) {
       break;
     case 'getMyPing':
       url = `${domain}/customer/getMyPing`;
-      body = `token=${$.Token}&fromType=APP&userId=1000410747&pin=`;
+      body = `token=${$.Token}&fromType=APP&userId=1000376431&pin=`;
       break;
     case 'getSimpleActInfoVo':
       url = `${domain}/common/brand/getSimpleActInfoVo`;
@@ -210,12 +210,12 @@ async function takePostRequest(type) {
       break;
     case 'accessLogWithAD':
       url = `${domain}/common/accessLogWithAD`;
-      let pageurl = `https://lzkjdz-isv.isvjcloud.com/m/1000410747/99/2203100041074702/?helpUuid=${$.shareUuid}`
-      body = `venderId=1000410747&code=99&pin=${encodeURIComponent($.Pin)}&activityId=${$.activityId}&pageUrl=${encodeURIComponent(pageurl)}`
+      let pageurl = `https://lzkjdz-isv.isvjcloud.com/m/1000376431/99/2201100037643103/?helpUuid=${$.shareUuid}`
+      body = `venderId=1000376431&code=99&pin=${encodeURIComponent($.Pin)}&activityId=${$.activityId}&pageUrl=${encodeURIComponent(pageurl)}`
       break;
     case 'getOpenCardStatusWithOutSelf':
       url = `${domain}/crmCard/common/coupon/getOpenCardStatusWithOutSelf`;
-      body = `venderId=1000410747&activityId=${$.activityId}&pin=${encodeURIComponent($.Pin)}`;
+      body = `venderId=1000376431&activityId=${$.activityId}&pin=${encodeURIComponent($.Pin)}`;
       break;
     case 'activityContent':
       url = `${domain}/lamer/invite/activityContent`;
@@ -409,7 +409,7 @@ function getPostRequest(url, body, method="POST") {
     "X-Requested-With": "XMLHttpRequest"
   }
   if(url.indexOf('https://lzkjdz-isv.isvjcloud.com') > -1){
-    headers["Referer"] = `https://lzkjdz-isv.isvjcloud.com/m/1000410747/99/2203100041074702/?helpUuid=${$.shareUuid}`
+    headers["Referer"] = `https://lzkjdz-isv.isvjcloud.com/m/1000376431/99/2201100037643103/?helpUuid=${$.shareUuid}`
     headers["Cookie"] = `${lz_jdpin_token_cookie && lz_jdpin_token_cookie || ''}${$.Pin && "AUTH_C_USER=" + $.Pin + ";" || ""}${activityCookie}`
   }
   // console.log(headers)
@@ -420,7 +420,7 @@ function getPostRequest(url, body, method="POST") {
 function getSimpleActInfoVo() {
   return new Promise(resolve => {
     let get = {
-      url:`https://lzkjdz-isv.isvjcloud.com/common/brand/getSimpleActInfoVo?activityId=2203100041074702`,
+      url:`https://lzkjdz-isv.isvjcloud.com/common/brand/getSimpleActInfoVo?activityId=2201100037643103`,
       headers: {
         "Accept": "application/json, text/plain, */*",
         "Accept-Encoding": "gzip, deflate, br",
@@ -428,7 +428,7 @@ function getSimpleActInfoVo() {
         "Connection": "keep-alive",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": cookie,
-        "Referer": `https://lzkjdz-isv.isvjcloud.com/m/1000410747/99/2203100041074702/?helpUuid=${$.shareUuid}`,
+        "Referer": `https://lzkjdz-isv.isvjcloud.com/m/1000376431/99/2201100037643103/?helpUuid=${$.shareUuid}`,
         "User-Agent": $.UA,
       },
       timeout:30000
@@ -478,7 +478,7 @@ function getCk() {
         "Connection": "keep-alive",
         "Content-Type": "application/x-www-form-urlencoded",
         "Cookie": cookie,
-        "Referer": `https://lzkjdz-isv.isvjcloud.com/m/1000410747/99/2203100041074702/?helpUuid=${$.shareUuid}`,
+        "Referer": `https://lzkjdz-isv.isvjcloud.com/m/1000376431/99/2201100037643103/?helpUuid=${$.shareUuid}`,
         "User-Agent": $.UA,
       },
       timeout:30000
