@@ -20,7 +20,7 @@ guaopenwait118="0"
 
 All变量适用
 ————————————————
-入口：[ 海蓝之谜邀请入会有礼 (https://lzkjdz-isv.isvjcloud.com/m/1000410747/99/2203100041074702/?helpUuid=76f9a4f1df2e42fd98c05997c0c9bc7d)]
+入口：[ 海蓝之谜邀请入会有礼 (https://lzkjdz-isv.isvjcloud.com/m/1000376431/99/2201100037643103/?helpUuid=b359d4e11ba340ff9254e5bb6204c0c0)]
 
 请求太频繁会被黑ip
 过10分钟再执行
