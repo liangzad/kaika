@@ -104,7 +104,7 @@ let activityCookie =''
   // return
   $.appkey = '51B59BB805903DA4CE513D29EC448375'
   $.userId = '10299171'
-  $.actId = '59168cf5fb364677845bfef449778_220318'
+  $.actId = '86f815be9b3e4c3386a_220324'
   $.MixNicks = ''
   $.inviteNick = 'vzt+XPnPKiZun3tF9vJHYV4tLNYA4seuA67MOIYQxEk3Vl9+AVo4NF+tgyeIc6A6kdK3rLBQpEQH9V4tdrrh0w=='
 //  console.log(`活动地址:https://3.cn/104c6-0Gl`)
